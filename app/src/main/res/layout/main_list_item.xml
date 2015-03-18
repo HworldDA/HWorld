@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:background="@drawable/my_button"
+    >
+
+    <TextView
+        android:id="@+id/office_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/distance"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="Detroit HQ"/>
+
+    <TextView
+        android:id="@+id/address1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/office_name"
+        android:layout_centerInParent="true"
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:text="One Edrive Prize"/>
+
+    <TextView
+        android:id="@+id/distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:textSize="12sp"
+        android:typeface="sans"
+        android:textStyle="bold"
+        android:textColor="@color/orange"
+        android:text="10 miles"/>
+
+</RelativeLayout>
